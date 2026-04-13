@@ -1,0 +1,43 @@
+#if-else:
+#odd or even
+a=int(input("Enter a number:"))
+if a%2==0:
+    print("It is Even")
+else:
+    print("It is odd")
+
+#vote
+a=int(input("Enter your age:"))
+if a>=18:
+    print("You are eligible for voting")
+else:
+    print("You are not eligible for voting")
+
+#pass or fail
+a=int(input("Enter your mark:"))
+if a>=40:
+        print("You are pass")
+else:
+    print("you are fail")
+
+
+#=ve or -ve
+a=int(input("Enter a number:"))
+if a>=0:
+    print("It is positive")
+else:
+    print("It is negative")
+
+#elif:
+a=int(input("Enter your mark:"))
+if a>=90:
+    print(" secured  A grade")
+elif a<89 or a>=75:
+    print("Secured B grade")
+elif a>=50 or a<=74:
+    print("Secured c grade:")
+else:
+    print("Fail")
+            
+    
+
