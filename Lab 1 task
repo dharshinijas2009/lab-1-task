@@ -1,3 +1,21 @@
+
+
+a=int(input("Enter a number:"))
+b=int(input ("Enter a number:"))
+print("The sum of",a,"and",b,"is",a+b)
+#operators ii) subtraction 
+print("The difference between ",a,"and",b,"is",a-b)
+#iii) Multiplication 
+print("The product of",a,"and",b,"is",a*b)
+#iv) Division 
+print("The division of",a,"and",b,"is",a/b)
+#Modulous
+print("The modulus of",a,"and",b,"is",a%b)
+#Floor division 
+print("The floor division of",a,"and",b,"is",a//b)
+#Exponent
+print("The exponent of ",a,"and",b,"is",a**b)
+
 #2.area and perimeter of rectangle
 a=int(input("Enter the length:"))
 b=int(input("Enter the breadth:"))
