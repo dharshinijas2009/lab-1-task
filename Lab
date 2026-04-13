@@ -1,3 +1,4 @@
+
 #if-else:
 #odd or even
 a=int(input("Enter a number:"))
@@ -40,4 +41,14 @@ else:
     print("Fail")
             
     
+#6.largest of three
+a=int(input("Enter a number:"))
+b=int(input ("Enter a number:"))
+c=int(input("Enter a number:"))
+if a>=b and a>=c:
+    print("The largest num is",a)
+elif b>=a and b>=c:
+    print("The largest num is",b)
+else:
+    print("The largest num is",c)
 
