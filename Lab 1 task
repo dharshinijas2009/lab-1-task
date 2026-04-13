@@ -1,0 +1,90 @@
+#2.area and perimeter of rectangle
+a=int(input("Enter the length:"))
+b=int(input("Enter the breadth:"))
+print("The area of rectangle is:",a*b)
+print("The perimeter of rectangle is:",2*(a+b))
+#area and perimeter of square
+a=int(input("Enter the side:"))
+print("The area of the square is:",a*a)
+print("The perimeter of square is:",4*a)
+#area and perimeter of circle
+a=int(input("Enter the radius:"))
+print("The area of the circle is:",3.14*a*a)
+print("The perimeter of the circle is:",2*3.14*a)
+
+
+#3.Average of three num
+a=int(input("Enter the number:"))
+b=int(input("Enter the number:"))
+c=int(input("Enter the number:"))
+print("The average of three numbers is:",(a+b+c)/3)
+
+#4.i)2 num are equal
+a=int(input("Enter  the number:"))
+b=int(input("Enter  the number:"))
+if a==b:
+    print("The two numbers are equal:")
+else:
+    print("They are not equal")
+
+#ii)greater
+a=int(input("Enter  the number:"))
+b=int(input("Enter the number:"))
+if a>b:
+    print(a,"is greater than",b)
+else:
+    print(b,"is greater")
+
+#iii)lesser or equal
+a=int(input("Enter  the number:"))
+b=int(input("Enter the number:"))
+if a<b:
+    print(a,"is less than",b)
+elif b<a:
+    print(b,"is less than",a)
+elif a==b:
+    print("They are equal")
+else:
+    print("They are not equal:")
+#5.square the number
+a=int(input("Enter a number:"))
+print("The square root of given number is:",a**a)
+
+#7.
+x=10
+x+=5
+x-=3
+x*=2
+x/=4
+x%=2
+x**=3
+print(x)
+
+#8.swap the num
+a=int(input("Enter the n1:"))
+b=int(input("Enter the n2:"))
+a,b=b,a
+print("The n1 is",a)
+print("The n2 is",b)
+
+#9.cube of a num
+a=int(input("Enter a number:"))
+print("The cube of a number is:",a**3)
+#10.last 2 digit
+a=8523
+print("The last two digits are",a%100)
+#11.remove the last 2 digit
+a=8523
+print("The num without last 2 digit",a//100)
+#simple and compound interest
+p=int(input("Enter the principal:"))
+r=float(input("Enter the interest rate:"))
+n=int(input("Enter the compounded amount:"))
+t=int(input("Enter the timeperiod:"))
+print("The compound interest is:",p*(1+(r/100))**n)
+print("The simple interest is:",(p*r*t)/100)
+
+
+
+
+      
