@@ -102,5 +102,19 @@ else:
         print("Password not matched ")
 
 
+#10.traffic signal
+a=input("Enter the colour:")
+if a=="Red" or a=="red":
+    print("Stop")
+else:
+    if a=="Yellow" or a=="yellow":
+        print("Wait")
+    else:
+        if a=="Green" or a=="green":
+          print("Go")
+        else:
+            print("Invalid signal")
+    
+
 
 
