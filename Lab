@@ -52,3 +52,37 @@ elif b>=a and b>=c:
 else:
     print("The largest num is",c)
 
+#7.week days
+a=int(input("Enter a number between 1to7:"))
+if a==1:
+    print("Sunday ")
+elif a==2:
+    print("Monday")
+elif a==3:
+    print("Tuesday ")
+elif a==4:
+    print("Wednesday ")
+elif a==5:
+    print ("Thursday ")
+elif a==6:
+    print("Friday ")
+else:
+    print("Saturday ")
+
+#8.simple calculator
+a=input("Enter an operator:")
+b=int(input ("Enter a number:"))
+c=int(input ("Enter a number:"))
+if a=='+':
+    print("The sum is",b+c)
+elif a=='-':
+    print("The difference is",b-c)
+elif a=='*':
+    print("The product is",b*a)
+elif a=='/':
+    if c==0:
+        print("Division by zero is not defined ")
+    else:
+          print("The division is",b/c)
+else:
+    print("Invalid operator ")
