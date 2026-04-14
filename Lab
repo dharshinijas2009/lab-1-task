@@ -86,3 +86,21 @@ elif a=='/':
           print("The division is",b/c)
 else:
     print("Invalid operator ")
+
+
+#9.Username and password 
+u="Devadharshini "
+p="12345678"
+a=input("Enter username:")
+b=input("Enter the password:")
+if a==u and b==p:
+    print("Login success")
+else:
+    if a!=u:
+        print(" username not matched ")
+    else:
+        print("Password not matched ")
+
+
+
+
