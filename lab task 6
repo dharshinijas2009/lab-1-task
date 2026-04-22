@@ -1,0 +1,75 @@
+#1.list with methods
+n=[1,2,3,4,5,5,6,7,7,8]
+n.append(9)
+print("ater appending",n)
+n.insert(3,4)
+print("After inserting num 4",n)
+n.remove(7)
+print("after removing num 7",n)
+n.pop()
+print("after poping last num",n)
+n.extend([10,11,12])
+print("list after extending elements",n)
+#2.count()
+n=[1,2,3,5,5,3,6]
+print("No.of.5's is",n.count(5))
+#3.index()
+n=[1,2,3,5,5,3,6]
+print("Index of the elemenet 3 is",n.index(3))
+#4.reverse
+n=[1,2,3,4,5,6]
+n.reverse()
+print("reverse of the list:",n)
+#5.sorting
+n=[100,85,66,34,320,550]
+n.sort()
+print("list in ascending order:",n)
+n.reverse()
+print("List in descending order:",n)
+#6.REMOVE
+
+print("list after removing 550:",n.remove(550))
+#7.copy
+a=[1,2,3,4,5]
+b=a.copy()
+print(b)
+#TUPLE WITH METHOD
+#8.TUPLE
+t=(1,2,3,4,5,6)
+print("lenth of the tuple",len(t))
+print("Max value:",max(t))
+print("Min value:",min(t))
+#9.count
+t=(1,2,33,4,4,5,66,7,7)
+print("No.of elements of 7:",t.count(7))
+#10.index
+print("Index of the element 66 is:",t.index(66))
+#11.adding elements by converting into list
+a=(11,22,33,44,55,66)
+b=list(a)
+b.append(77)
+c=tuple(b)
+print("initial tuple:",a)
+print("Tuple after adding elements:",c)
+#12.concatenate
+a=(1,2,3)
+b=(4,5,6)
+c=a+b
+print("concatenated tuple:",c)
+#13.slice a tuple
+a=('d','e','v','a','d','h','a')
+print(a[2:6])
+#14.check the presence
+a=('d','e','v','a','d','h','a')
+e=input("enter the element:")
+if 'e' in a:
+    print("Yes it is a element of the tuple")
+else:
+    print("It is not the element of the tuple")
+
+
+
+
+
+
+
