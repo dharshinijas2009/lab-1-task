@@ -1,1 +1,61 @@
+#1.upper
+a=input("Enter your name:")
+print(a.upper())
+
+#2.lower
+a=input("Enter a sentence:")
+print(a.lower())
+
+#3.capitalize
+a=input("Enter a sentence:")
+print(a.capitalize())
+
+#4.format
+a=input("Enter your name:")
+b=int(input("Enter your age:"))
+print(f"My name is {a} and Iam {b} years old")
+
+#5.index
+a=input("Enter a sentence:")
+print(a)
+b=input("Enter the character to find the index:")
+print(a.index(b))
+
+#6.find
+a=input("Enter a sentence:")
+b=input("Enter the substring:")
+print("The position of substring",a.find(b))
+
+#7.endswith
+a=input("Enter a sentence:")
+print(a.endswith('ing'))
+
+#8.expandtabs
+a="Iam\tGood\tHere"
+print(a.expandtabs(10))
+
+#9.encode
+a=input("Enter a sentence:")
+print(a.encode('UTF-16'))
+
+#10.digit
+a=input("Enter a number:")
+print(a.isdigit())
+
+#11.numeric
+a=input("Enter a number:")
+print(a.isnumeric())
+
+#12.alnum
+a=input("Enter a sentence:")
+print(a.isalnum())
+
+#13.Ascii
+a=input("Enter a sentence:")
+print(a.isascii())
+
+#14.isalpha
+a=input("Enter a sentence:")
+print(a.isalpha())
+
 
