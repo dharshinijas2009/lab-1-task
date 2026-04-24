@@ -1,1 +1,71 @@
+#1.num from 1to 100
+for i in range(1,101):
+    print(i,end=" ")
+
+#2.skip if % by 3
+a=int(input("Enter the starting num:"))
+b=int(input("Enter the last num:"))
+for i in range(a,b+1):
+    if i%3==0:
+        continue 
+    else:
+        print(i,end=" ")
+    
+#3.stop if % by 9
+a=int(input("Enter the starting num:"))
+b=int(input("Enter the last num:"))
+for i in range(a,b+1):
+    if i%9==0:
+        break
+    else:
+        print(i,end=" ")
+
+#4.print in reverse 
+a=int(input("Enter the number:"))
+while a>=1:
+    print(a,end=" ")
+    a-=1
+
+#5.use pass when 5
+a=int(input("Enter a number:"))
+while a>=1:
+    if a==5:
+        pass
+    else:
+        print(a,end=" ")
+    a-=1
+
+#6.stop num is less than 1
+a=int(input("Enter a positive number:"))
+while True:
+    if a<0:
+        break
+    else:
+       print(a,end=" ")
+       a-=1
+      
+#7.print python except h
+word="PYTHON"
+for i in word:
+    if i=="H":
+        continue 
+    else:
+        print(i)
+
+#8.skip 17,break 13
+a=20
+while a>=1:
+    if a==17:
+        a-=1
+        continue
+    elif a==13:
+        break
+    else:
+        print(a,end=" ")
+        a-=1
+    
+
+    
+
+
 
