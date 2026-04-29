@@ -1,0 +1,65 @@
+#1.Greeting funciton
+def greet():
+    print("Hello!")
+greet()
+
+#2.add  2 num
+def add(a,b):
+    print("Add:",a+b)
+a=int(input("Enter a num:"))
+b=int(input("Enter a num:"))
+add(a,b)
+
+#3.lambda square
+n=int(input("Enter the number:"))
+square=lambda n:n**2
+print(square(n))
+
+#4.Even num
+n=int(input("Enter a num:"))
+a=list(range(1,n+1))
+even=list(filter(lambda x:x%2==0,a))
+print(even)
+
+#5.multiples of 2
+n=int(input("Enter a num:"))
+a=list(range(1,n+1))
+two=list(map(lambda x:x*2,a))
+print(two)
+
+#6.factorial
+n=int(input("Enter a num:"))
+def fact(n):
+    if n==1 or n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+print("The factorial of the number is:",fact(n))
+
+#7.print num from 1 to 5 using rec
+print("The numbers from 1 to 5:")
+def rec():
+    i=1
+    while i<=5:
+        print(i)
+        i+=1
+rec()
+
+#8.lambda add
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+add=lambda a,b:a+b
+print("The sum of",a,b,"is:",add(a,b))
+
+#9.filter
+n=int(input("Enter a num:"))
+a=list(range(1,n+1))
+b=list(filter(lambda x:x>5,a))
+print("The numbers greater than 5 are:",b)
+
+#10.square using map
+n=int(input("Enter a num:"))
+a=list(range(1,n+1))
+b=list(map(lambda x:x**2,a))
+print("The square numbers are:",b)
+
