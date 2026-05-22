@@ -34,7 +34,90 @@ try:
         raise ValueError("Invalid mark")
 except ValueError as e:
     print(f"Error:{e}")'''
- 
+ '''#non-numeric
+try:
+    a=int(input("Enter a num:"))
+    print("Valid num")
+except:
+    print("Oops!Its not a num")
+
+#File Handling
+with open("deva.txt","w") as f:
+    f.write("HI!This is Devadharshini\nIam a student of livewire")
+with open("deva.txt","r") as f:
+    print(f.read())
+a=open("deva.txt","a")
+a.write("\nIam learning python now!")
+a=open("deva.txt","r")
+print("After appending")
+print(a.read())
+#counting
+with open("deva.txt","r") as f:
+    file=f.read()
+    word=file.split()
+    num=len(word)
+print("Total words:",num)
+
+word=0
+with open("deva.txt","r") as f:
+    for a in f:
+        b=a.split()
+        word+=len(b)
+    print("Total:",word)
+    
+#conting words lines and char
+with open("deva.txt","r") as f:
+    for lines in f:
+        print(f"Lines: {repr(lines)}")
+        print(f"characters: {len(lines)}")
+        print(f"Words: {len(lines.split())}")
+
+#check for a word
+with open("name.txt","w") as f:
+    f.write("DEVA\nHEMA\nSWETHA")
+with open("name.txt","r") as f:
+    word=f.read()
+a=input("Enter your name:").upper()
+if a in word:
+    print("You are selected!!")
+else:
+    print("Better luck next time")
+
+#copy
+with open("deva.txt","w") as f:
+    f.write("HI! This is Devadharshini\nIam a std at livewire")
+with open("name.txt","r") as f:
+    a=f.read()
+with open("deva.txt","a") as f:
+    f.write("\n")
+    f.write(a)
+    f.write("\n")
+print("After copying and writing...")
+with open("deva.txt","r") as f:
+  print(f.read())'''
+
+#file and exceptional:
+try:
+with open("deva.txt","r") as f:
+    print(f.read())
+except:
+    print("Error:File not found")
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
 
 
 
